@@ -1,0 +1,111 @@
+#area-attiva{
+    width: 75%;
+    height: 100vh;
+    border: 1px solid brown;
+    background-color: beige;
+    margin-left: 12.5%;
+}
+
+#area-pulsanti{
+    width: 99.8%;
+    height: 10%;
+    border: 1px solid brown;
+    background-color: rgb(235, 210, 27);
+}
+
+.pulsanti{
+    width: 15%;
+    height: 85%;
+    background-color: ivory;
+    color: brown;
+    font-size: 3em;
+    border-radius: 10em;
+    border: 2px solid brown;
+    cursor: pointer;
+    text-align: center;
+    /*padding-top: .45%;*/
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+#area-movimenti{
+    width: 100%;
+    height: 75%;
+    background-color:  rgb(204, 119, 34);
+    overflow-y: auto;
+}
+
+#area-inserimento{
+    display: none;
+    width: 100%;
+    height: 10%;
+    background-color: beige;
+    
+}
+
+.movimento{
+    width: 99%;
+    height: 10%;
+    background-color: beige;
+    border: 3px solid brown;
+    font-size: 1.2em;
+    border-radius: 5em;
+}
+
+.entrata{
+    background-color: rgb(234, 240, 172);
+}
+
+.uscita{
+    background-color: rgb(243, 162, 104);
+}
+
+.data{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 25%;
+    display: inline-block;
+    color: rgb(94, 25, 25);
+}
+
+.motivo{
+    width: 55%;
+    display: inline-block;
+    color: rgb(94, 25, 25);
+}
+
+.importo{
+    width: 10%;
+    display: inline-block;
+    color: rgb(94, 25, 25);
+    
+}
+
+.valore{
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+.nuovo-movimento{
+    margin-top: 35px;
+}
+
+.nuovo-giorno{
+    margin-left: 20px;
+    margin-right: 40px;
+    padding: 15px;
+    width: 15%;
+}
+
+.nuovo-motivo{
+    width: 40%;
+    font-size: 1.5em;
+    margin-right: 40px;
+}
+
+.nuovo.importo{
+    margin-left: 5px;
+    width: 10%;
+    font-size: 30px;
+}
